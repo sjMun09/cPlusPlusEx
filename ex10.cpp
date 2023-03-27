@@ -5,13 +5,14 @@ using namespace std;
 
 int main(){
 
-    const int Size = 15; 
+    const int Size = 15;
     char name1[Size]; // 비어있는 배열
     char name2[Size] = "C++Programaing"; // 문자열 상수로 초기화
 
     cout << "안녕하세요. 저는 " << name2;
     cout << "입니다 ! 성함이 어떻게 되십니까?\n";
-    cin >> name1;
+    //cin >> name1;
+    cin.getline(name1, Size);
     cout << "음, " << name1 << "씨, 당신의 이름은";
     cout << strlen(name1) << " 자입니다만\n";
     cout << sizeof(name1) << "바이트 크기의 배열로 저장되었습니다.\n";
@@ -20,6 +21,6 @@ int main(){
     cout << "제 이름의 처음 세 문자는 : ";
     cout << name2 << endl;
 
-
     return 0;
+
 }
