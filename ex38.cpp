@@ -58,7 +58,7 @@ Stock::~Stock()
 int main(){
     Stock temp;
     // temp 에 관한 멤버함수를 호출해주기 위해서 멤버 연산자인 " . "을 사용해줌
-    temp.acquire("Seongjun",100 ,1000);
+    temp.acquire("HMM",100 ,1000);
     temp.show();
     temp.buy(10,1200);
     temp.show();
