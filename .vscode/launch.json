@@ -38,6 +38,16 @@
             "externalConsole": false,
             "MIMode": "lldb",
             "preLaunchTask": "C/C++: cpp 활성 파일 빌드"
+        },
+        //  추가 
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.o",
+            "args": [],
+            "preLaunchTask": "g++",
+            "terminal": "integrated"
         }
     ],
     "version": "2.0.0"
