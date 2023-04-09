@@ -14,4 +14,6 @@ int main(){
 void display(Mystruct& temp){
     cout << "이름 : " << temp.name << endl;
     cout << "나이 : " << temp.age << endl;
+    cout << "나이 : " << temp.age << endl;
+    cout << "나이 : " << temp.age << endl;
 }
