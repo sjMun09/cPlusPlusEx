@@ -7,10 +7,7 @@
                 // 해당 디렉토리에 헤더파일이 있다면, 소스코드에서 사용할 수 있도록함.
                 "/Users/mun/Desktop/대학교/c++Study",
                 "/Users/mun/Desktop/대학교/c++Study/panda"
-                //  더 추가해줌.
-                // "/usr/include/gstreamer-1.0/",
-                // "/usr/include/glib-2.0/",
-                // "/usr/lib/x86_64-linux-gnu/glib-2.0/include/"
+                
 
             ],
             "defines": [],
