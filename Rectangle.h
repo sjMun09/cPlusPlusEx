@@ -6,19 +6,28 @@ using namespace std;
 class Rectangle
 {
 private:
-    /* data */
+    int width, height;
 public:
-    Rectangle(/* args */);
-    int width, height, sum;
-    int getArea();
+    Rectangle();
+    Rectangle(int w,int h);
+    Rectangle(int length);
+    bool isSquare();
     ~Rectangle();
 };
 
-Rectangle::Rectangle(/* args */)
-{
+Rectangle::Rectangle(){
+    width = height =1;
 }
-int Rectangle::getArea(int width, int height){
-    sum = width * height;
+Rectangle::Rectangle(int w, int h){
+    width =w;
+    height=h;
+}
+Rectangle::Rectangle(int length){
+    width = height = length;
+}
+boo Rectangle::isSquare(){
+    if (width==height) return true;
+    else return false;
 }
 
 Rectangle::~Rectangle()
@@ -27,4 +36,5 @@ Rectangle::~Rectangle()
 
 
 
-#endif // RECTANGLE
+
+#endif //RECTANGLE
