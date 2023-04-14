@@ -28,6 +28,11 @@ DATE::DATE(int y, int m, int d){
     month = m;
     day = d;
 }
+Date::Date(string str){
+	year = stoi(str);
+	month = stoi(str.substr(5,6));
+	day = stoi(str.substr(7,9));
+}
 void DATE::show(){
     cout << year <<" 년 " << month << "월" << day << "일" << endl;
 }
