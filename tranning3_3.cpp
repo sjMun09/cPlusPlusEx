@@ -6,4 +6,5 @@ int main(){
     cout << a.getOwner() << "의 잔액은" << a.inquiry() << endl;
     int money = a.withdraw(20000);
     cout << a.getOwner() << "의 잔액은" << a.inquiry() << endl;
+    
 }
