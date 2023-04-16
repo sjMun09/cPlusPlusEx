@@ -1,9 +1,9 @@
+#ifndef CLASS
+#define CLASS
+
 #include <iostream>
-#include ""
 using namespace std;
 
-int main(){
 
 
-    return 0;
-}
+#endif
